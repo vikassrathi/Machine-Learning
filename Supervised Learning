@@ -10,12 +10,12 @@ The model learns to map inputs to the correct outputs by identifying patterns in
 the model can be tested on new, unseen data to predict the output (label) for that input.
 
 For example:
-- Email spam filtering: The model is trained on emails labeled as either "spam" or "not spam," and it learns to classify new emails based on this training.
-- Speech recognition: The model is trained on audio data labeled with the corresponding text, allowing it to recognize and transcribe speech in new audio samples.
+- Email spam filtering: The model is trained on emails labelled as either "spam" or "not spam," and it learns to classify new emails based on this training.
+- Speech recognition: The model is trained on audio data labelled with the corresponding text, allowing it to recognize and transcribe speech in new audio samples.
 
 Supervised learning has two main categories:
 
-1. Classification: This predicts categorical outcomes or class labels. For example, classifying whether an email is "spam" or "not spam" or predicting if a tumor is "benign" or "malignant."
+1. Classification: This predicts categorical outcomes or class labels. For example, classifying whether an email is "spam"
 
 2. Regression: This predicts continuous values, such as forecasting the price of a house or predicting the temperature for the next day.
 
