@@ -1,0 +1,23 @@
+Unsupervised Learning is a type of machine learning where the model is trained on unlabeled data. The goal is to identify hidden patterns, relationships, or groupings within the data without any explicit instructions on what to look for. Unlike supervised learning, where the model learns from labeled data (i.e., data that has both input and output values), unsupervised learning works on data that only has inputs and no corresponding labels.
+
+There are two primary types of unsupervised learning techniques:
+
+1. Clustering: This involves dividing a dataset into groups based on similarity.
+2. Dimensionality Reduction: This reduces the number of features in a dataset while maintaining its essential properties.
+
+### Example: Clustering with K-Means
+
+Problem: Suppose you have a dataset of customer information for an e-commerce company, including their age, income, and shopping behavior. The company wants to group customers into segments to create targeted marketing strategies, but there are no labels indicating which customer belongs to which segment.
+
+Solution: You can apply the K-Means clustering algorithm. Here’s how it works:
+
+1. Input Data: A dataset of customer features, e.g., age, income, number of purchases.
+2. K-Means Algorithm:
+   - It initializes `K` centroids (random points).
+   - Each data point is assigned to the nearest centroid, creating `K` clusters.
+   - The centroids are then recalculated based on the mean of the assigned points.
+   - This process repeats until the centroids no longer change significantly.
+3. Result: You now have `K` customer segments (clusters) with similar traits, e.g., high-income frequent shoppers, low-income occasional shoppers, etc.
+
+No Labels: The clusters are formed without predefined categories, so the algorithm is unsupervised.
+
