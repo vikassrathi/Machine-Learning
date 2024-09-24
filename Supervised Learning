@@ -4,7 +4,7 @@ Your explanation of **Supervised Learning** is clear, but the last sentence abou
 
 **Supervised Learning:**
 
-In supervised learning, the model is trained using labeled data, where each input is associated with the correct output (label). 
+In supervised learning, the model is trained using labelled data, where each input is associated with the correct output (label). 
 The process involves feeding the algorithm a set of training examples where the input data is paired with the correct answer.
 The model learns to map inputs to the correct outputs by identifying patterns in the data. Once trained,
 the model can be tested on new, unseen data to predict the output (label) for that input.
@@ -15,7 +15,8 @@ For example:
 
 Supervised learning has two main categories:
 
-1. Classification: This predicts categorical outcomes or class labels. For example, classifying whether an email is "spam"
+1. Classification: This predicts categorical outcomes or class labels. For example, classifying whether an email is "spam".
+Basically, the regression model predicts categories.
 
 2. Regression: This predicts continuous values, such as forecasting the price of a house or predicting the temperature for the next day.
-
+Basically regression model predicts numbers
